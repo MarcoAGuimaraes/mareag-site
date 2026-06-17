@@ -760,3 +760,12 @@ textarea{
     }
 
 }
+
+@media(max-width:767px){
+
+    .contato-page .section-title h2{
+
+        font-size:2rem;
+    }
+
+}
