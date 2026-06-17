@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Contato | Mareag</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"> MAREAG </a>
+
+        <nav class="nav-desktop">
+          <a href="index.html">Home</a>
+
+          <a href="contato.html">Contato</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+      <a href="index.html"> Home </a>
+
+      <a href="contato.html"> Contato </a>
+    </nav>
+    <section class="section contato-page">
+      <div class="section-title">
+        <span>Contato</span>
+
+        <h2>Fale com a Mareag</h2>
+      </div>
+
+      <form id="formContato">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+
+        <input type="text" id="assunto" placeholder="Assunto" required />
+
+        <textarea
+          id="mensagem"
+          rows="6"
+          placeholder="Sua mensagem"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+      </form>
+
+      <br />
+
+      <div class="footer-buttons">
+        <a
+          href="https://wa.me/5511993221090"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          WhatsApp
+        </a>
+
+        <a
+          href="https://instagram.com/SEUINSTAGRAM"
+          target="_blank"
+          class="btn btn-secondary"
+        >
+          Instagram
+        </a>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/contato.js"></script>
+  </body>
+</html>
