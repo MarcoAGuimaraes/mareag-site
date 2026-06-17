@@ -626,7 +626,7 @@ DESKTOP
             rgba(0,0,0,.25),
             rgba(0,0,0,.55)
         ),
-        url('../img/hero-desktop.jpg');
+        url('/assets/img/hero-desktop.jpg');
 
         background-size:cover;
 
@@ -667,7 +667,7 @@ TVS / ULTRAWIDE
     .hero{
 
         background:
-        url('../img/hero-tv.webp');
+        url('/assets/img/hero-tv.jpg');
 
         background-size:cover;
 
